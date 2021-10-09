@@ -41,6 +41,11 @@
             </div>
 
             <div class="field">
+                <%=  f.label :profile, "プロフィール", class: "label" %>
+                <%= f.text_field :profile, class: "textarea" %>
+            </div>
+
+            <div class="field">
                 <%=  f.label :profile_image, "プロフィール画像", class: "label" %>
                 <%= f.attachment_field :profile_image, format: 'jpeg',  class: "input" %>
             </div>
